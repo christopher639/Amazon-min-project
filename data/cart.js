@@ -1,5 +1,5 @@
 //cart javascript
-export const cart = [{
+export let cart = [{
      productId:'e43638ce-6aa0-4b85-b27f-e1d07eb678c6',
      quantity:2
 },{
@@ -24,4 +24,17 @@ else{
     quantity: 1
 });
 }
+}
+
+
+   export function removeFromCart(productId){
+     //create a new array loop throught a cart
+     const newCart = [];
+     cart.forEach((cartItem)=>{
+         if(cartItem.productId !==productId){
+           newCart.push(cartItem);
+         }
+     });
+
+     cart = newCart;
 }
