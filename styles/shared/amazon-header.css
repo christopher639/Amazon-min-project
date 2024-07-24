@@ -1,5 +1,5 @@
 .amazon-header {
-  background-color: rgb(19, 25, 33);
+  background-color: forestgreen;
   color: white;
   padding-left: 15px;
   padding-right: 15px;
@@ -32,6 +32,7 @@
   cursor: pointer;
   text-decoration: none;
   border: 1px solid rgba(0, 0, 0, 0);
+  color: white;
 }
 
 .header-link:hover {
@@ -41,9 +42,11 @@
 .amazon-logo {
   width: 100px;
   margin-top: 5px;
+  display: none;
 }
 
 .amazon-mobile-logo {
+  display: none;
   display: none;
 }
 
