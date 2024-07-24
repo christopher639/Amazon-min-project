@@ -1,48 +1,49 @@
 const products = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
-    name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    image: "images/besthp.jpg",
+    name: "Hp laptop",
     rating: {
       stars: 4.5,
-      count: 87
+      count: 872
     },
-    priceCents: 1090,
+    priceCents: 8400090,
     keywords: [
-      "socks",
-      "sports",
-      "apparel"
+      "hp",
+      "laptops",
+      "laptop"
     ]
   },
   {
     id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
-    image: "images/products/intermediate-composite-basketball.jpg",
-    name: "Intermediate Size Basketball",
+    image: "images/hplaptop.jpg",
+    name: "Silver Hp Laptop",
     rating: {
       stars: 4,
       count: 127
     },
-    priceCents: 2095,
+    priceCents: 6400095,
     keywords: [
-      "sports",
-      "basketballs"
+      "hp",
+      "laptops",
+      "laptop"
     ]
   },
   {
     id: "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
-    image: "images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg",
-    name: "Adults Plain Cotton T-Shirt - 2 Pack",
+    image: "images/markbook.jpg",
+    name: "Mark Desktop",
     rating: {
       stars: 4.5,
-      count: 56
+      count: 569
     },
-    priceCents: 799,
+    priceCents: 17990000,
     keywords: [
-      "tshirts",
-      "apparel",
-      "mens"
+      "mackbooks",
+      "desktop",
+      "computer"
     ],
-    type: "clothing",
+    type: "Desktops",
     sizeChartLink: "images/clothing-size-chart.png"
   },
   {
