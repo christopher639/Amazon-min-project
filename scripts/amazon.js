@@ -1,8 +1,7 @@
-//saving product data in javascript arrays using objects
-//data structures
-//combinations of objects and arrays
 
-//looping to each product 
+import { cart } from "../data/cart.js";
+
+
 let productsHtml = '';
 products.forEach((product)=>{
     productsHtml += ` <div class="product-container">
