@@ -1,0 +1,2 @@
+//cart javascript
+const cart = [];
